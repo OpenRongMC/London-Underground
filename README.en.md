@@ -2,32 +2,21 @@
 
 [简体中文](./README.md) · English
 
-Adds London Underground-themed trains and station content for building Tube-inspired routes and stations in MTR.
 
-## Download and installation
+The London Underground addon by t1NbLu3 brings Tube-style stations and tunnels to MTR. Use white or concrete station pieces, stairs, tunnel wiring and signage to recreate a station. Creative tabs separate station and tunnel blocks, signs, and legacy blocks.
 
-- Version · [v2.2.4-port.1+26.3](https://github.com/OpenRongMC/London-Underground/releases/tag/v2.2.4-port.1%2B26.3) (Release)
-- Release asset · `rongmc-london-2.2.4-port.1.26.3.jar`
-- Runtime · Minecraft Java 26.3, Fabric, Java 25
-- Fabric Loader · `>=0.19.3`
-- Fabric mod ID · `rongmc_londonunderground`
-- Dependencies declared by the JAR · [Fabric API](https://modrinth.com/mod/fabric-api), [`rongmc_mtr`](https://github.com/OpenRongMC/Minecraft-Transit-Railway) `4.0.5-port.1+26.3`
+## What changed in the RongMC 26.3 port
 
-Place the release JAR in the instance’s `mods/` directory. Install it on both sides alongside the matching RongMC MTR release. Enable any custom train resource packs on the clients that will render the trains.
+The port adapts block, item or vehicle-resource loading for Minecraft 26.3 and uses the matching MTR 4.0.5 interfaces. The addon retains its upstream theme and gameplay.
 
-## How to try it
+## Installation
 
-Select a London Underground vehicle for a siding consist and run it to a platform. Check its appearance in service and again after a resource reload.
+Download **v2.2.4-port.1+26.3** from [GitHub Releases](https://github.com/OpenRongMC/London-Underground/releases/tag/v2.2.4-port.1%2B26.3) for Minecraft Java **26.3** on **Fabric** with **Java 25**. Dependencies include [Fabric API](https://modrinth.com/mod/fabric-api), [MTR](https://github.com/OpenRongMC/Minecraft-Transit-Railway). Place the release JAR in the instance’s `mods/` directory. Install it on both sides alongside the matching RongMC MTR release. Enable any custom train resource packs on the clients that will render the trains.
 
-## Development
+## Original project
 
-Develop and test alongside the matching MTR and platform mappings. The RongMC transport build uses Java 25. Use the coordinated workspace and release metadata when reproducing a release.
-
-## Documentation and support
-
-- [Previous README (historical guide, contributors and credits)](https://github.com/OpenRongMC/London-Underground/blob/3fd603cb76c7b7a80f4862e50c5fd0970afa0a2d/README.md)
-- [Report a RongMC port issue](https://github.com/OpenRongMC/London-Underground/issues) · Include the game version, client and server JAR names, reproduction steps and relevant logs.
+[London Underground Addon](https://modrinth.com/mod/the-tube)
 
 ## License and credits
 
-See this repository’s [LICENSE](./LICENSE) and the original project’s license, credits and third-party asset notices.
+See [LICENSE](./LICENSE) and the original project credits.
