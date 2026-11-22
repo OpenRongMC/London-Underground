@@ -1,28 +1,33 @@
-# MTR London Underground Addon
+# 伦敦地铁扩展
 
-A London Underground Addon for the [Minecraft Transit Railway](https://github.com/jonafanho/Minecraft-Transit-Railway) mod (original author: t1NbLu3).
+简体中文 · [English](./README.en.md)
 
-Adds London Underground themed content (stations, trains, decorations) as an MTR addon.
+为 MTR 增加伦敦地铁风格的列车和车站内容，适合建设英式地铁线路和站内场景。
 
-Upstream project historically published as “The Tube” / London Underground addon on Modrinth.
+## 下载与安装
 
----
+- 版本 · [v2.2.4-port.1+26.3](https://github.com/OpenRongMC/London-Underground/releases/tag/v2.2.4-port.1%2B26.3) (已发布)
+- 下载文件 · `rongmc-london-2.2.4-port.1.26.3.jar`
+- 运行环境 · Minecraft Java 26.3, Fabric, Java 25
+- Fabric Loader · `>=0.19.3`
+- Fabric 模组 ID · `rongmc_londonunderground`
+- JAR 声明的依赖 · [Fabric API](https://modrinth.com/mod/fabric-api), [`rongmc_mtr`](https://github.com/OpenRongMC/Minecraft-Transit-Railway) `4.0.5-port.1+26.3`
 
-## RongMC · Minecraft 26.3 Fabric 移植说明
+把发行 JAR 放入对应实例的 `mods/` 目录。与同系列 RongMC MTR 一起装到客户端和服务端。自定义列车资源包也要在实际使用的客户端启用。
 
-本仓库是 RongMC 维护的 **Minecraft 26.3 / Fabric / Java 25** 移植构建，不是上游官方发行渠道。
+## 如何验证
 
-### 与原版的主要差异
-- Minecraft 26.3 Fabric 移植；Fabric id `rongmc_londonunderground`（provides `londonunderground`）。
-- 依赖 `rongmc_mtr`。资源体积大（列车/站台模型）。
+在侧线编组中选一款伦敦地铁车辆并开行。确认车辆出现在站台、外观正确，同时检查资源重载后的表现。
 
-### 已知问题 / 限制
-- 上游仓库缺少完整 README；本说明按 fabric.mod.json 与移植实践整理。
-- 大资源包可能导致客户端显存与加载时间上升。
-- 与其它 MTR 列车资源包冲突时，优先检查模型/音效覆盖。
+## 开发
 
-### 构建与安装
-- Fabric mod id：`rongmc_londonunderground`（`provides`：`londonunderground`，旧依赖名一般仍可解析）
-- Release 产物见本仓库 Releases（jar 名带 `rongmc-` 前缀）
-- 许可证：本仓以 **GPL-3.0** 发布（见 `LICENSE`）；请同时尊重上游原作者条款与署名
+与同一版本的 MTR 和平台映射一起联调。交通套件的 RongMC 发布构建使用 Java 25，应以配套工作区和发行 JAR 的元数据为准。
 
+## 文档与反馈
+
+- [原 README（旧版指南、贡献者与署名）](https://github.com/OpenRongMC/London-Underground/blob/3fd603cb76c7b7a80f4862e50c5fd0970afa0a2d/README.md)
+- [报告 RongMC 移植问题](https://github.com/OpenRongMC/London-Underground/issues) · 请附游戏版本、两端 JAR 文件名、复现步骤和相关日志。
+
+## 许可与署名
+
+请参阅本仓库的 [LICENSE](./LICENSE) 及原项目的许可、署名和第三方资源说明。
