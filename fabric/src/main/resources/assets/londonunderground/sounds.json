@@ -1,0 +1,93 @@
+{
+  "cityambient": {
+    "sounds": [
+      {
+        "name": "londonunderground:cityambient"
+      }
+    ]
+  },
+  "ambient1": {
+    "sounds": [
+      {
+        "name": "londonunderground:ambient1"
+      }
+    ]
+  },
+  "seeitsayitsorted": {
+    "sounds": [
+      {
+        "name": "londonunderground:seeitsayitsorted"
+      }
+    ]
+  },
+  "approach": {
+    "sounds": [
+      {
+        "name": "londonunderground:sw_ew_bank"
+      }
+    ]
+  },
+  "approach_test": {
+    "sounds": [
+      {
+        "name": "londonunderground:arrive95"
+      }
+    ]
+  },
+  "sw_mdn": {
+    "sounds": [
+      {
+        "name": "londonunderground:northernline/this_south_wimbledon_terminates_morden"
+      }
+    ]
+  },
+  "tb_terminates": {
+    "sounds": [
+      {
+        "name": "londonunderground:northernline/tootingbroadway_terminates"
+      }
+    ]
+  },
+  "sw_chx_highb": {
+    "sounds": [
+      {
+        "name": "londonunderground:northernline/sw_chx_highb"
+      }
+    ]
+  },
+  "arrival": {
+    "sounds": [
+      {
+        "name": "londonunderground:northernline/arrival"
+      }
+    ]
+  },
+  "next_southwimbledon": {
+    "sounds": [
+      {
+        "name": "londonunderground:northernline/next_southwimbledon"
+      }
+    ]
+  },
+  "clack1": {
+    "sounds": [
+      {
+        "name": "londonunderground:clack1"
+      }
+    ]
+  },
+  "clack2": {
+    "sounds": [
+      {
+        "name": "londonunderground:clack2"
+      }
+    ]
+  },
+  "screech1": {
+    "sounds": [
+      {
+        "name": "londonunderground:screech1"
+      }
+    ]
+  }
+}
